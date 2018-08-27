@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Gigya Unofficial UI Builder layout editor</title>
+    <script src="popup.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body {
+            min-width:300px;
+            min-height:300px;
+            margin:10px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="text-center">
+        <p class="lead">Gigya Unofficial UI Builder layout editor</p>
+        <div id="actions" class="jumbotron">
+            <input id="addRow" class="btn btn-primary btn-block" type="button" value="Add row" />
+            <input id="addCol" class="btn btn-primary btn-block" type="button" value="Add column" />
+        </div>
+
+        <p id="error" class="msg text-danger">An error ocurred</p>
+        <p id="select-control" class="msg text-danger">Please make sure UI Builder is the active tab and select a control in the screen-set</p>
+        <p id="success-row" class="msg">Row added successfully under the selected control - A Save operation might be required in order to drag controls inside it</p>
+        <p id="success-col" class="msg">Column added successfully to the right of the selected control - A Save operation might be required in order to drag controls inside it</p>
+    </div>
+  </body>
+</html>

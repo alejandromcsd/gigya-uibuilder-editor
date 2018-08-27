@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gigya UI Builder Layout Editor",
+  "description": "This extension is not official - Manipulates UI Builder screen-set layout",
+  "version": "0.0.0.1",
+  "author": "Alejandro Perez",
+
+  "icons": { 
+    "16": "icon16.png", 
+    "48": "icon48.png", 
+    "128": "icon128.png" 
+  },
+  "browser_action": {
+    "default_icon": {                 
+      "16": "icon16.png",
+      "24": "icon24.png",
+      "32": "icon32.png" 
+    },
+    "default_popup": "popup.html",
+    "default_title": "Gigya UI Builder Layout Editor (Unofficial)"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
